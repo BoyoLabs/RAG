@@ -4,5 +4,5 @@ This repo hosts my Contextual Data Logic (CDL) frameworks or RAG files. CDL fram
 
 To use:
 
-Download the .cdl.md file and upload it to your favorite LLM, or use it to create a gemini gem or custom GPT.
+Download the .'x'.md file and upload it to your favorite LLM, or use it to create a gemini gem or custom GPT.
 
