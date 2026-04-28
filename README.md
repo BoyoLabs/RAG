@@ -1,8 +1,5 @@
 # READ ME
 
-This repo hosts my Contextual Data Logic (CDL) frameworks or RAG files. CDL frameworks work by uploading a file to an LLM (or creating a gem) and it acts as prompt/context engineering (and possibly a dataset) for an LLM to work with (the RAG.) CDL is a meta-programming technique, effectively bootstrapping projects for LLMs.
+I often find myself using Gemini to create prompts for claude to implement. Due to Claude being the expensive tool in terms of usage limits. These are starting prompts that I use to work with claude to implement. I do iterate further with claude, but these are the starting points.
 
-To use:
-
-Download the .'x'.md file and upload it to your favorite LLM, or use it to create a gemini gem or custom GPT.
-
+I also use these as sort of "standalone" projects where the AI will return a specific required value based on the prompt -- this is best used in gemini gems.
