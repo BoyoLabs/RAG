@@ -81,9 +81,22 @@ Logic can be nested to create complex decision trees.
 `# Query : Summarize the authentication flow`  
 `# Output Format : Bulleted List`  
 
+* A full prompt can be multi line, or single. Here is a single line example:
+`# Persona : Technical Writer`
+`# Context : Product documentation for a new API`
+`# Query : Summarize the authentication flow`
+`# Output Format : Bulleted List`
+
 ### Case 2: Complex Logic Flow (The "CMD" Style)
 `# Persona : Agentic Engineer`  
 `# Variable : name [API_URL] | value [https://api.example.com/v1]`  
 `# Logic : Fetch Data from API_URL -> [IF CORS issue : [Check Headers -> Verify Origin]] ELSE [Parse JSON] -> Format Result`  
 `# Output Format : JSON`  
 `# Query : Execute the logic flow and return the final data.`  
+
+* A single line example:
+`# Persona : Agentic Engineer`
+`# Variable : name [API_URL] | value [https://api.example.com/v1]`
+`# Logic : Fetch Data from API_URL -> [IF CORS issue : [Check Headers -> Verify Origin]] ELSE [Parse JSON] -> Format Result`
+`# Output Format : JSON`
+`# Query : Execute the logic flow and return the final data.`
