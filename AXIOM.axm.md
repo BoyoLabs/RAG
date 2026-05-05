@@ -2,7 +2,7 @@
 *The Command Prompt for LLMs*
 
 ## 1. Philosophy
-Axiom is a **Declarative Prompting Language** designed to shift the interaction with Large Language Models from *conversational prose* to *deterministic specification*. 
+Axiom is a **Declarative Structured Prompting Language** designed to shift the interaction with Large Language Models from *conversational prose* to *deterministic specification*. 
 
 Traditional prompting relies on "natural language," which is prone to ambiguity, instruction drift, and noise. Axiom treats the prompt as a technical specification. It establishes "ground truths" (axioms) and a logical execution flow, ensuring that the model's reasoning process is structured, predictable, and efficient.
 
