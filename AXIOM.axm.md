@@ -28,7 +28,7 @@ Axiom uses `# Label :` to define the role and intent of a block. This separates 
 
 ### Variables
 Axiom allows for state management via variable declaration:
-**Syntax:** `# Variable : name [variableName] \| value [Variable value]`
+**Syntax:** `# Variable : name [variableName] | value [Variable value]`
 
 ---
 
