@@ -43,6 +43,13 @@ Axiom allows for state management via variable declaration:
 
 Axiom introduces programmatic structures to control the model's "thought process."
 
+### The Conjunction Operator (`|`)
+Used to denote **parallel execution** or **simultaneous requirements**. It signals the "also/and" relationship between instructions or tasks.
+
+`Task A | Task B | Task C`
+
+* The model is instructed to treat the piped items as co-requisites or concurrent operations within a single logical step.
+
 ### The Sequence Operator (`->`)
 Defines a linear, step-by-step cognitive pipeline.
 `Step 1 -> Step 2 -> Step 3`
