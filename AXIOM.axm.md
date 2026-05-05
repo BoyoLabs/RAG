@@ -102,3 +102,19 @@ Logic can be nested to create complex decision trees.
 `# Logic : Fetch Data from API_URL -> [IF CORS issue : [Check Headers -> Verify Origin]] ELSE [Parse JSON] -> Format Result`
 `# Output Format : JSON`
 `# Query : Execute the logic flow and return the final data.`
+
+---
+
+## 6. Conclusion: Adaptive Structure
+
+While Axiom (AXM) borrows from technical syntax, it is not a rigid programming language constrained by a compiler. It is a **flexible framework** designed to bridge the gap between chaotic natural language and strict code. 
+
+### Core Principles
+* **Descriptive, Not Restrictive**: The command labels provided in this specification (e.g., `# Persona :`, `# Logic :`) are **canonical examples**, not hard-coded keywords. Users are encouraged to define their own operators that best fit their specific domain.
+* **Clarity Over Complexity**: Unlike heavy frameworks such as *PromptLang* or *SudoLang*, which can become as bloated as the prose they seek to replace, Axiom prioritizes a "low-floor, high-ceiling" approach. It aims for maximum signal with minimum syntax.
+* **Intentional Flow**: The goal is to provide the LLM with a clear cognitive map. By replacing lengthy, rambling instructions with deterministic blocks, you ensure the model spends its "tokens" on solving your problem rather than deciphering your intent.
+
+Axiom is, ultimately, about **intentionality**. It transforms the prompt from a hopeful request into a structured command.
+
+---
+*Axiom Specification v1.0 | End of Line.*
